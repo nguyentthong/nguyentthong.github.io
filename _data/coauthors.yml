@@ -1,18 +1,11 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Nguyen":
+  - firstname: ["Thong", "T.", "T. N.", "Thong Nguyen"]
+    url: https://scholar.google.com/citations?user=C2zb0lkAAAAJ&hl=en
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Luu":
+  - firstname: ["Tuan", "T.", "T. L.", "Tuan Luu"]
+    url: https://scholar.google.com.vn/citations?user=d6ixOGYAAAAJ&hl=en
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
-
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
-
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Quan":
+  - firstname: ["Tho", "T.", "T. Q.", "Tho Quan"]
+    url: https://scholar.google.com/citations?user=IlW-MrAAAAAJ&hl=en
