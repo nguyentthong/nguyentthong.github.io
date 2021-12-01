@@ -1,5 +1,16 @@
 ---
 ---
+@article{nguyen2021improving,
+  abbr={AAAI},
+  title={Improving Neural Cross-Lingual Abstractive Summarization via Employing Optimal Transport Distance for Knowledge Distillation},
+  author={Nguyen, Thong and Luu, Tuan},
+  journal={Proceedings of AAAI},
+  year={2022},
+  selected={true},
+  abstract={Current state-of-the-art cross-lingual summarization models employ multi-task learning paradigm,  which works on a shared vocabulary module and relies on the self-attention mechanism to attend among tokens in two languages. However, correlation learned by self-attention is often loose and implicit, inefficient in capturing crucial cross-lingual representations between languages. The matter worsens when performing on languages with separate morphological or structural features, making the cross-lingual alignment more challenging, resulting in the performance drop. To overcome this problem, we propose a novel Knowledge-Distillation-based framework for Cross-Lingual Summarization, seeking to explicitly construct cross-lingual correlation by distilling the knowledge of the monolingual summarization teacher into the cross-lingual summarization student. Since the representations of the teacher and the student lie on two different vector spaces, we further propose a Knowledge Distillation loss using Sinkhorn Divergence, an Optimal-Transport distance, to estimate the discrepancy between those teacher and student representations. Due to the intuitively geometric nature of Sinkhorn Divergence, the student model can productively learn to align its produced cross-lingual hidden states with monolingual hidden states, hence leading to a strong correlation between distant languages. Experiments on cross-lingual summarization datasets in pairs of distant languages demonstrate that our method outperforms state-of-the-art models under both high and low-resourced settings.}
+}
+
+
 @article{nguyen2021contrastive,
   abbr={NeurIPS},
   title={Contrastive Learning for Neural Topic Model},
@@ -7,7 +18,15 @@
   journal={Proceedings of NeurIPS},
   year={2021},
   selected={true},
-  abstract={Recent empirical studies show that adversarial topic models (ATM) can successfully capture semantic patterns of the document by differentiating a document with another dissimilar sample. However, utilizing that discriminative-generative architecture has two important drawbacks: (1) the architecture does not relate similar documents, which has the same document-word distribution of salient words; (2) it restricts the ability to integrate external information, such as sentiments of the document, which has been shown to benefit the training of neural topic model. To address those issues, we revisit the adversarial topic architecture in the view point of mathematical analysis, propose a novel approach to re-formulate discriminative goal as an optimization problem, and design a novel sampling method which facilitates the integration of external variables. The reformulation encourages the model to incorporate the relations among similar samples and enforces the constraint on the similarity among dissimilar ones; while the sampling method, which is based on the internal input and reconstructed output, helps inform the model of salient words contributing to the main topic. Experimental results show that our framework outperforms other state-of-the-art neural topic models in three common benchmark datasets that belong to various domains, vocabulary sizes, and document lengths in terms of topic coherence.}
+  abstract={Recent empirical studies show that adversarial topic models (ATM) can successfully capture semantic patterns of the document by differentiating a document with another dissimilar sample. However, utilizing that discriminative-generative architecture has two important drawbacks: (1) the architecture does not relate similar documents, which has the same document-word distribution of salient words; (2) it restricts the ability to integrate external information, such as sentiments of the document, which has been shown to benefit the training of neural topic model. To address those issues, we revisit the adversarial topic architecture in the view point of mathematical analysis, propose a novel approach to re-formulate discriminative goal as an optimization problem, and design a novel sampling method which facilitates the integration of external variables. The reformulation encourages the model to incorporate the relations among similar samples and enforces the constraint on the similarity among dissimilar ones; while the sampling method, which is based on the internal input and reconstructed output, helps inform the model of salient words contributing to the main topic. Experimental results show that our framework outperforms other state-of-the-art neural topic models in three common benchmark datasets that belong to various domains, vocabulary sizes, and document lengths in terms of topic coherence.},
+  arxiv={2110.12764},
+  bibtex_show={@article{nguyen2021contrastive,
+  title={Contrastive Learning for Neural Topic Model},
+  author={Nguyen, Thong and Luu, Anh Tuan},
+  journal={Advances in Neural Information Processing Systems},
+  volume={34},
+  year={2021}
+}}
 }
 
 @article{nguyen2021enriching,
@@ -17,6 +36,14 @@
   journal={Proceedings of EMNLP},
   year={2021},
   selected={true},
-  abstract={Recently, Transformer-based models have been proven effective in the abstractive summarization task by creating fluent and informative summaries. Nevertheless, these models still suffer from the short-range dependency problem, causing them to produce summaries that miss the key points of document. In this paper, we attempt to address this issue by introducing a neural topic model empowered with normalizing flow to capture the global semantics of the document, which are then integrated into the summarization model. In addition, to avoid the overwhelming effect of global semantics on contextualized representation, we introduce a mechanism to control the amount of global semantics supplied to the text generation module. Our method outperforms state-of-the-art summarization models on five common text summarization datasets, namely CNN/DailyMail, XSum, Reddit TIFU, arXiv, and PubMed.}
+  abstract={Recently, Transformer-based models have been proven effective in the abstractive summarization task by creating fluent and informative summaries. Nevertheless, these models still suffer from the short-range dependency problem, causing them to produce summaries that miss the key points of document. In this paper, we attempt to address this issue by introducing a neural topic model empowered with normalizing flow to capture the global semantics of the document, which are then integrated into the summarization model. In addition, to avoid the overwhelming effect of global semantics on contextualized representation, we introduce a mechanism to control the amount of global semantics supplied to the text generation module. Our method outperforms state-of-the-art summarization models on five common text summarization datasets, namely CNN/DailyMail, XSum, Reddit TIFU, arXiv, and PubMed.},
+  arxiv={2109.10616},
+  bibtex_show={@inproceedings{nguyen2021enriching,
+  title={Enriching and Controlling Global Semantics for Text Summarization},
+  author={Nguyen, Thong and Luu, Anh Tuan and Lu, Truc and Quan, Tho},
+  booktitle={Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing},
+  pages={9443--9456},
+  year={2021}
+}}
 }
 
