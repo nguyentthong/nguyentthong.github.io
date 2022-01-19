@@ -4,7 +4,9 @@
   <head>
     {% include head.html %}
     {% include scripts/mathjax.html %}
-    {% include google-analytics.html %}
+    {% if site.google_analytics and jekyll.environment == 'production' %}
+        {% include analytics.html %}
+    {% endif %}
   </head>
 
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
