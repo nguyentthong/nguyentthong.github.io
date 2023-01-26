@@ -6,7 +6,7 @@ description: PhD student at National University of Singapore
 
 profile:
   align: right
-  image: thong.jpg
+  image: thong_nguyen.jpg
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
