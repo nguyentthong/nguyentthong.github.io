@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2021-09-28 12:00:00-0400
+date: 2023-05-02 12:00:00-0400
 inline: true
 ---
 
-Paper accepted to NeurIPS 2021.
+One paper accepted to ACL 2023 (Findings).

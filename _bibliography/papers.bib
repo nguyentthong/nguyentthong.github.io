@@ -1,5 +1,46 @@
 ---
 ---
+@article{wu2023effective,
+  abbr={ICML},
+  title={InfoCTM: A Mutual Information Maximization Perspective of Cross-lingual Topic Modeling},
+  author={Wu, Xiaobao and Dong, Xinshuai and Nguyen, Thong and Luu, Tuan},
+  journal={Proceedings of ICML},
+  year={2023},
+  selected={false},
+  abstract={Topic models have been prevalent for decades with various applications like automatic text analysis due to their effectiveness and interpretability. However, existing topic models commonly suffer from the notorious topic collapsing issue: the discovered topics semantically collapse towards each other, leading to highly repetitive topics, insufficient topic discovery, and damaged model interpretability. In this paper, we propose a new neural topic model, Embedding Clustering Regularization Topic Model (ECRTM), to solve the topic collapsing issue. In addition to the reconstruction error of existing work, we propose a novel Embedding Clustering Regularization (ECR), which forces each topic embedding to be the center of a separately aggregated word embedding cluster in the semantic space. Instead of collapsing together, this makes topic embeddings away from each other and cover different semantics of word embeddings. Thus our ECR enables each produced topic to contain distinct word semantics, which alleviates topic collapsing. Through jointly optimizing our ECR objective and the neural topic modeling objective, ECRTM generates diverse and coherent topics together with high-quality topic distributions of documents. Extensive experiments on benchmark datasets demonstrate that ECRTM effectively addresses the topic collapsing issue and consistently surpasses state-of-the-art baselines in terms of topic quality, topic distributions of documents, and downstream classification tasks.},
+}
+
+@article{wu2023info,
+  abbr={AAAI},
+  title={InfoCTM: A Mutual Information Maximization Perspective of Cross-lingual Topic Modeling},
+  author={Wu, Xiaobao and Dong, Xinshuai and Nguyen, Thong and Liu, Chaoqun and Pan, Liangming and Luu, Tuan},
+  journal={Proceedings of AAAI},
+  year={2023},
+  selected={false},
+  abstract={Cross-lingual topic models have been prevalent for crosslingual text analysis by revealing aligned latent topics. However, most existing methods suffer from producing repetitive topics that hinder further analysis and performance decline caused by low-coverage dictionaries. In this paper, we propose the Cross-lingual Topic Modeling with Mutual Information (InfoCTM). Instead of the direct alignment in previous work, we propose a topic alignment with mutual information method. This works as a regularization to properly align topics and prevent degenerate topic representations of words, which mitigates the repetitive topic issue. To address the low-coverage dictionary issue, we further propose a crosslingual vocabulary linking method that finds more linked cross-lingual words for topic alignment beyond the translations of a given dictionary. Extensive experiments on English, Chinese, and Japanese datasets demonstrate that our method outperforms state-of-the-art baselines, producing more coherent, diverse, and well-aligned topics and showing better transferability for cross-lingual classification tasks.},
+}
+
+@article{nguyen2021gradient,
+  abbr={ACL},
+  title={Gradient-Boosted Decision Tree for Listwise Context Model in Multimodal Review Helpfulness Prediction},
+  author={Nguyen, Thong and Wu, Xiaobao and Dong, Xinshuai and Luu, Tuan and Nguyen, Cong-Duy and Hai, Zhen and Bing, Lidong},
+  journal={Proceedings of ACL (Findings)},
+  year={2023},
+  selected={true},
+  abstract={Multimodal Review Helpfulness Prediction (MRHP) aims to rank product reviews based on predicted helpfulness scores and has been widely applied in e-commerce via presenting customers with useful reviews. Previous studies commonly employ fully-connected neural networks (FCNNs) as the final score predictor and pairwise loss as the training objective. However, FCNNs have been shown to perform inefficient splitting for review features, making the model difficult to clearly differentiate helpful from unhelpful reviews. Furthermore, pairwise objective, which works on review pairs, may not completely capture the MRHP goal to produce the ranking for the entire review list, and possibly induces low generalization during testing. To address these issues, we propose a listwise attention network that clearly captures the MRHP ranking context and a listwise optimization objective that enhances model generalization. We further propose gradient-boosted decision tree as the score predictor to efficaciously partition product reviews' representations. Extensive experiments demonstrate that our method achieves state-of-the-art results and polished generalization performance on two large-scale MRHP benchmark datasets.},
+}
+
+@article{nguyen2021adaptive,
+  abbr={EMNLP},
+  title={Adaptive Contrastive Learning on Multimodal Transformer for Review Helpfulness Predictions},
+  author={Nguyen, Thong and Wu, Xiaobao and Luu, Tuan and Nguyen, Cong-Duy and Hai, Zhen and Bing, Lidong},
+  journal={Proceedings of EMNLP},
+  year={2022},
+  selected={true},
+  abstract={Modern Review Helpfulness Prediction systems are dependent upon multiple modalities, typically texts and images. Unfortunately, those contemporary approaches pay scarce attention to polish representations of cross-modal relations and tend to suffer from inferior optimization. This might cause harm to model's predictions in numerous cases. To overcome the aforementioned issues, we propose Multimodal Contrastive Learning for Multimodal Review Helpfulness Prediction (MRHP) problem, concentrating on mutual information between input modalities to explicitly elaborate cross-modal relations. In addition, we introduce Adaptive Weighting scheme for our contrastive learning approach in order to increase flexibility in optimization. Lastly, we propose Multimodal Interaction module to address the unalignment nature of multimodal data, thereby assisting the model in producing more reasonable multimodal representations. Experimental results show that our method outperforms prior baselines and achieves state-of-the-art results on two publicly available benchmark datasets for MRHP problem.},
+  arxiv={2211.03524}
+}
+
 @article{nguyen2021improving,
   abbr={AAAI},
   title={Improving Neural Cross-Lingual Abstractive Summarization via Employing Optimal Transport Distance for Knowledge Distillation},
