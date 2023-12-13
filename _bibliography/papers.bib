@@ -1,14 +1,39 @@
 ---
 ---
+@article{nguyen2023read,
+  abbr={AAAI},
+  title={READ-PVLA: Recurrent Adapter with Partial Video-Language Alignment for Parameter-Efficient Transfer Learning in Low-Resource Video-Language Modeling},
+  author={Nguyen, Thong and Wu, Xiaobao and Dong, Xinshuai and Le, Khoi and Hu, Zhiyuan and Nguyen, Cong-Duy and Ng, See-Kiong, and Luu, Tuan},
+  journal={Proceedings of AAAI},
+  year={2024},
+  selected={true},
+  abstract={Fully fine-tuning pretrained large-scale transformer models has become a popular paradigm for video-language modeling tasks, such as temporal language grounding and video-language summarization. With a growing number of tasks and limited training data, such full fine-tuning approach leads to costly model storage and unstable training. To overcome these shortcomings, we introduce lightweight adapters to the pre-trained model and only update them at fine-tuning time. However, existing adapters fail to capture intrinsic temporal relations among video frames or textual words. Moreover, they neglect the preservation of critical task-related information that flows from the raw video-language input into the adapter's low-dimensional space. To address these issues, we first propose a novel REcurrent ADapter (READ) that employs recurrent computation to enable temporal modeling capability. Second, we propose Partial Video-Language Alignment (PVLA) objective via the use of partial optimal transport to maintain task-related information flowing into our READ modules. We validate our READ-PVLA framework through extensive experiments where READ-PVLA significantly outperforms all existing fine-tuning strategies on multiple low-resource temporal language grounding and video-language summarization benchmarks.},
+  arxiv={2312.06950}
+}
+
 @article{wu2023effective,
   abbr={ICML},
-  title={InfoCTM: A Mutual Information Maximization Perspective of Cross-lingual Topic Modeling},
+  title={Effective Neural Topic Modeling with Embedding Clustering Regularization},
   author={Wu, Xiaobao and Dong, Xinshuai and Nguyen, Thong and Luu, Tuan},
   journal={Proceedings of ICML},
   year={2023},
   selected={false},
-  abstract={Topic models have been prevalent for decades with various applications like automatic text analysis due to their effectiveness and interpretability. However, existing topic models commonly suffer from the notorious topic collapsing issue: the discovered topics semantically collapse towards each other, leading to highly repetitive topics, insufficient topic discovery, and damaged model interpretability. In this paper, we propose a new neural topic model, Embedding Clustering Regularization Topic Model (ECRTM), to solve the topic collapsing issue. In addition to the reconstruction error of existing work, we propose a novel Embedding Clustering Regularization (ECR), which forces each topic embedding to be the center of a separately aggregated word embedding cluster in the semantic space. Instead of collapsing together, this makes topic embeddings away from each other and cover different semantics of word embeddings. Thus our ECR enables each produced topic to contain distinct word semantics, which alleviates topic collapsing. Through jointly optimizing our ECR objective and the neural topic modeling objective, ECRTM generates diverse and coherent topics together with high-quality topic distributions of documents. Extensive experiments on benchmark datasets demonstrate that ECRTM effectively addresses the topic collapsing issue and consistently surpasses state-of-the-art baselines in terms of topic quality, topic distributions of documents, and downstream classification tasks.},
+  abstract={Topic models have been prevalent for decades with various applications. However, existing topic models commonly suffer from the notorious topic collapsing: discovered topics semantically collapse towards each other, leading to highly repetitive topics, insufficient topic discovery, and damaged model interpretability. In this paper, we propose a new neural topic model, Embedding Clustering Regularization Topic Model (ECRTM). Besides the existing reconstruction error, we propose a novel Embedding Clustering Regularization (ECR), which forces each topic embedding to be the center of a separately aggregated word embedding cluster in the semantic space. This enables each produced topic to contain distinct word semantics, which alleviates topic collapsing. Regularized by ECR, our ECRTM generates diverse and coherent topics together with high-quality topic distributions of documents. Extensive experiments on benchmark datasets demonstrate that ECRTM effectively addresses the topic collapsing issue and consistently surpasses state-of-the-art baselines in terms of topic quality, topic distributions of documents, and downstream classification tasks.},
+  arxiv={2306.04217}
 }
+
+
+@article{nguyen2023demaformer,
+  abbr={EMNLP},
+  title={DemaFormer: Damped Exponential Moving Average Transformer with Energy-Based Modeling for Temporal Language Grounding},
+  author={Nguyen, Thong and Wu, Xiaobao and Dong, Xinshuai and Nguyen, Cong-Duy and Ng, See-Kiong and Luu, Tuan},
+  journal={Proceedings of EMNLP (Findings)},
+  year={2023},
+  selected={true},
+  abstract={Temporal Language Grounding seeks to localize video moments that semantically correspond to a natural language query. Recent advances employ the attention mechanism to learn the relations between video moments and the text query. However, naive attention might not be able to appropriately capture such relations, resulting in ineffective distributions where target video moments are difficult to separate from the remaining ones. To resolve the issue, we propose an energy-based model framework to explicitly learn moment-query distributions. Moreover, we propose DemaFormer, a novel Transformer-based architecture that utilizes exponential moving average with a learnable damping factor to effectively encode moment-query inputs. Comprehensive experiments on four public temporal language grounding datasets showcase the superiority of our methods over the state-of-the-art baselines.},
+  arxiv={2312.02549}
+}
+
 
 @article{wu2023info,
   abbr={AAAI},

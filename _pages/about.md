@@ -12,7 +12,7 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-I am a PhD student advised by Professor <a href="https://www.comp.nus.edu.sg/~ngsk/">See-Kiong Ng</a> and Professor <a href="https://tuanluu.github.io/">Anh-Tuan Luu</a> at National University of Singapore, where I was fortunate enough to be funded by a <a href="https://research.google/outreach/phd-fellowship/recipients/">Google PhD Fellowship</a> and AI Singapore PhD Fellowship. Currently, my research interests are in Natural Language Processing, particularly Video-Language Modeling (VLM) and Paramter-Efficient Transfer Learning for VLM.
+I am a PhD student advised by Professor <a href="https://www.comp.nus.edu.sg/~ngsk/">See-Kiong Ng</a> and Professor <a href="https://tuanluu.github.io/">Anh-Tuan Luu</a> at National University of Singapore, where I was fortunate enough to be funded by a <a href="https://research.google/outreach/phd-fellowship/recipients/">Google PhD Fellowship</a> and AI Singapore PhD Fellowship. Currently, my research interests are in Natural Language Processing, particularly Video-Language Model (VidLM) and Paramter-Efficient Transfer Learning for VidLM.
 
 <span style="font-weight: 700!important">Contact</span>: <span style="font-family: 'Lucida Console', monospace">e0998147 [at] u.nus.edu</span>
 
