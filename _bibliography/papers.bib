@@ -1,20 +1,73 @@
 ---
 ---
+@article{nguyen2024video,
+  abbr={ACL},
+  title={Video-Language Understanding: A Survey from Model Architecture, Model Training, and Data Perspectives},
+  author={Nguyen, Thong and Bin, Yi and Xiao, Junbin and Qu, Leigang and Li, Yicong and Wu, Jay Zhangjie and Nguyen, Cong-Duy and Ng, See-Kiong and Tuan, Luu Anh},
+  journal={Proceedings of ACL (Findings)},
+  year={2024},
+  selected={true},
+  abstract={Humans use multiple senses to comprehend the environment. Vision and language are two of the most vital senses since they allow us to easily communicate our thoughts and perceive the world around us. There has been a lot of interest in creating video-language understanding systems with human-like senses since a video-language pair can mimic both our linguistic medium and visual environment with temporal dynamics. In this survey, we review the key tasks of these systems and highlight the associated challenges. Based on the challenges, we summarize their methods from model architecture, model training, and data perspectives. We also conduct performance comparison among the methods, and discuss promising directions for future research.},
+  arxiv={2406.05615},
+  code={https://github.com/nguyentthong/video-language-understanding}
+}
+
+@article{nguyen2024kdmcse,
+  abbr={NAACL},
+  title={KDMCSE: Knowledge distillation multimodal sentence embeddings with adaptive angular margin contrastive learning},
+  author={Nguyen, Cong-Duy and Nguyen, Thong and Wu, Xiaobao and Luu, Anh-Tuan},
+  journal={Proceedings of NAACL},
+  volume={38},
+  number={17},
+  pages={19261--19269},
+  year={2024},
+  abstract={Previous work on multimodal sentence embedding has proposed multimodal contrastive learning and achieved promising results. However, by taking the rest of the batch as negative samples without reviewing when forming contrastive pairs, those studies encountered many suspicious and noisy negative examples, significantly affecting the methods' overall performance. In this work, we propose KDMCSE (Knowledge Distillation Multimodal contrastive learning of Sentence Embeddings), a novel approach that enhances the discrimination and generalizability of multimodal representation and inherits the knowledge from the teacher model to learn the difference between positive and negative instances and via that, can detect noisy and wrong negative samples effectively before they are calculated in the contrastive objective. Furthermore, to overcome the limitation of modeling the variation within negative pairs, we introduce a new contrastive objective, AdapACSE (Adaptive Angular Margin Supervised Contrastive Learning for Multimodal sentence embeddings), that enhances the discriminative representation by strengthening the margin within the angular space while capturing varying semantics within the negative. Experimental results on widely used Semantic Textual Similarity (STS) benchmarks demonstrate the effectiveness of our approach.},
+  arxiv={2403.17486}
+}
+
+
+@article{wu2024affinity,
+  abbr={AAAI},
+  title={On the affinity, rationality, and diversity of hierarchical topic modeling},
+  author={Wu, Xiaobao and Pan, Fengjun and Nguyen, Thong and Feng, Yichao and Liu, Chaoqun and Nguyen, Cong-Duy and Luu, Anh-Tuan},
+  journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={17},
+  pages={19261--19269},
+  year={2024},
+  abstract={Hierarchical topic modeling aims to discover latent topics from a corpus and organize them into a hierarchy to understand documents with desirable semantic granularity. However, existing work struggles with producing topic hierarchies of low affinity, rationality, and diversity, which hampers document understanding. To overcome these challenges, we in this paper propose Transport Plan and Context-aware Hierarchical Topic Model (TraCo). Instead of early simple topic dependencies, we propose a transport plan dependency method. It constrains dependencies to ensure their sparsity and balance, and also regularizes topic hierarchy building with them. This improves affinity and diversity of hierarchies. We further propose a context-aware disentangled decoder. Rather than previously entangled decoding, it distributes different semantic granularity to topics at different levels by disentangled decoding. This facilitates the rationality of hierarchies. Experiments on benchmark datasets demonstrate that our method surpasses state-of-the-art baselines, effectively improving the affinity, rationality, and diversity of hierarchical topic modeling with better performance on downstream tasks.},
+  arxiv={2401.14113}
+}
+
+
 @article{nguyen2023read,
   abbr={AAAI},
   title={READ-PVLA: Recurrent Adapter with Partial Video-Language Alignment for Parameter-Efficient Transfer Learning in Low-Resource Video-Language Modeling},
-  author={Nguyen, Thong and Wu, Xiaobao and Dong, Xinshuai and Le, Khoi and Hu, Zhiyuan and Nguyen, Cong-Duy and Ng, See-Kiong, and Luu, Tuan},
+  author={Nguyen, Thong and Wu, Xiaobao and Dong, Xinshuai and Le, Khoi and Hu, Zhiyuan and Nguyen, Cong-Duy and Ng, See-Kiong, and Luu, Anh-Tuan},
   journal={Proceedings of AAAI},
   year={2024},
   selected={true},
   abstract={Fully fine-tuning pretrained large-scale transformer models has become a popular paradigm for video-language modeling tasks, such as temporal language grounding and video-language summarization. With a growing number of tasks and limited training data, such full fine-tuning approach leads to costly model storage and unstable training. To overcome these shortcomings, we introduce lightweight adapters to the pre-trained model and only update them at fine-tuning time. However, existing adapters fail to capture intrinsic temporal relations among video frames or textual words. Moreover, they neglect the preservation of critical task-related information that flows from the raw video-language input into the adapter's low-dimensional space. To address these issues, we first propose a novel REcurrent ADapter (READ) that employs recurrent computation to enable temporal modeling capability. Second, we propose Partial Video-Language Alignment (PVLA) objective via the use of partial optimal transport to maintain task-related information flowing into our READ modules. We validate our READ-PVLA framework through extensive experiments where READ-PVLA significantly outperforms all existing fine-tuning strategies on multiple low-resource temporal language grounding and video-language summarization benchmarks.},
-  arxiv={2312.06950}
+  arxiv={2312.06950},
+  code={https://github.com/nguyentthong/READ_PVLA}
+}
+
+
+@article{nguyen2023improving,
+  abbr={EMNLP},
+  title={Improving multimodal sentiment analysis: Supervised angular margin-based contrastive learning for enhanced fusion representation},
+  author={Nguyen, Cong-Duy and Nguyen, Thong and Vu, Duc and Luu, Anh-Tuan},
+  journal={Proceedings of EMNLP (Findings) 2023},
+  pages={14714--14724},
+  year={2023},
+  abstract={The effectiveness of a model is heavily reliant on the quality of the fusion representation of multiple modalities in multimodal sentiment analysis. Moreover, each modality is extracted from raw input and integrated with the rest to construct a multimodal representation. Although previous methods have proposed multimodal representations and achieved promising results, most of them focus on forming positive and negative pairs, neglecting the variation in sentiment scores within the same class. Additionally, they fail to capture the significance of unimodal representations in the fusion vector. To address these limitations, we introduce a framework called Supervised Angular-based Contrastive Learning for Multimodal Sentiment Analysis. This framework aims to enhance discrimination and generalizability of the multimodal representation and overcome biases in the fusion vector's modality. Our experimental results, along with visualizations on two widely used datasets, demonstrate the effectiveness of our approach.},
+  arxiv={2312.02227}
 }
 
 @article{wu2023effective,
   abbr={ICML},
   title={Effective Neural Topic Modeling with Embedding Clustering Regularization},
-  author={Wu, Xiaobao and Dong, Xinshuai and Nguyen, Thong and Luu, Tuan},
+  author={Wu, Xiaobao and Dong, Xinshuai and Nguyen, Thong and Luu, Anh-Tuan},
   journal={Proceedings of ICML},
   year={2023},
   selected={false},
@@ -26,7 +79,7 @@
 @article{nguyen2023demaformer,
   abbr={EMNLP},
   title={DemaFormer: Damped Exponential Moving Average Transformer with Energy-Based Modeling for Temporal Language Grounding},
-  author={Nguyen, Thong and Wu, Xiaobao and Dong, Xinshuai and Nguyen, Cong-Duy and Ng, See-Kiong and Luu, Tuan},
+  author={Nguyen, Thong and Wu, Xiaobao and Dong, Xinshuai and Nguyen, Cong-Duy and Ng, See-Kiong and Luu, Anh-Tuan},
   journal={Proceedings of EMNLP (Findings)},
   year={2023},
   selected={true},
@@ -38,17 +91,18 @@
 @article{wu2023info,
   abbr={AAAI},
   title={InfoCTM: A Mutual Information Maximization Perspective of Cross-lingual Topic Modeling},
-  author={Wu, Xiaobao and Dong, Xinshuai and Nguyen, Thong and Liu, Chaoqun and Pan, Liangming and Luu, Tuan},
+  author={Wu, Xiaobao and Dong, Xinshuai and Nguyen, Thong and Liu, Chaoqun and Pan, Liangming and Luu, Anh-Tuan},
   journal={Proceedings of AAAI},
   year={2023},
   selected={false},
   abstract={Cross-lingual topic models have been prevalent for crosslingual text analysis by revealing aligned latent topics. However, most existing methods suffer from producing repetitive topics that hinder further analysis and performance decline caused by low-coverage dictionaries. In this paper, we propose the Cross-lingual Topic Modeling with Mutual Information (InfoCTM). Instead of the direct alignment in previous work, we propose a topic alignment with mutual information method. This works as a regularization to properly align topics and prevent degenerate topic representations of words, which mitigates the repetitive topic issue. To address the low-coverage dictionary issue, we further propose a crosslingual vocabulary linking method that finds more linked cross-lingual words for topic alignment beyond the translations of a given dictionary. Extensive experiments on English, Chinese, and Japanese datasets demonstrate that our method outperforms state-of-the-art baselines, producing more coherent, diverse, and well-aligned topics and showing better transferability for cross-lingual classification tasks.},
+  arxiv={2304.03544}
 }
 
 @article{nguyen2023gradient,
   abbr={ACL},
   title={Gradient-Boosted Decision Tree for Listwise Context Model in Multimodal Review Helpfulness Prediction},
-  author={Nguyen, Thong and Wu, Xiaobao and Dong, Xinshuai and Luu, Tuan and Nguyen, Cong-Duy and Hai, Zhen and Bing, Lidong},
+  author={Nguyen, Thong and Wu, Xiaobao and Dong, Xinshuai and Luu, Anh-Tuan and Nguyen, Cong-Duy and Hai, Zhen and Bing, Lidong},
   journal={Proceedings of ACL (Findings)},
   year={2023},
   selected={true},
@@ -60,7 +114,7 @@
 @article{nguyen2022adaptive,
   abbr={EMNLP},
   title={Adaptive Contrastive Learning on Multimodal Transformer for Review Helpfulness Predictions},
-  author={Nguyen, Thong and Wu, Xiaobao and Luu, Tuan and Nguyen, Cong-Duy and Hai, Zhen and Bing, Lidong},
+  author={Nguyen, Thong and Wu, Xiaobao and Luu, Anh-Tuan and Nguyen, Cong-Duy and Hai, Zhen and Bing, Lidong},
   journal={Proceedings of EMNLP},
   year={2022},
   selected={true},
@@ -72,7 +126,7 @@
 @article{nguyen2022improving,
   abbr={AAAI},
   title={Improving Neural Cross-Lingual Abstractive Summarization via Employing Optimal Transport Distance for Knowledge Distillation},
-  author={Nguyen, Thong and Luu, Tuan},
+  author={Nguyen, Thong and Luu, Anh-Tuan},
   journal={Proceedings of AAAI},
   year={2022},
   selected={true},
@@ -85,7 +139,7 @@
 @article{nguyen2021contrastive,
   abbr={NeurIPS},
   title={Contrastive Learning for Neural Topic Model},
-  author={Nguyen, Thong and Luu, Tuan},
+  author={Nguyen, Thong and Luu, Anh-Tuan},
   journal={Proceedings of NeurIPS},
   year={2021},
   selected={true},
@@ -97,7 +151,7 @@
 @article{nguyen2021enriching,
   abbr={EMNLP},
   title={Enriching and Controlling Global Semantics for Text Summarization},
-  author={Nguyen, Thong and Luu, Tuan and Lu, Truc and Quan, Tho},
+  author={Nguyen, Thong and Luu, Anh-Tuan and Lu, Truc and Quan, Tho},
   journal={Proceedings of EMNLP},
   year={2021},
   selected={true},
