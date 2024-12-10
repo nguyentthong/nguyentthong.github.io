@@ -1,5 +1,25 @@
 ---
 ---
+@article{nguyen2024motion,
+  abbr={AAAI},
+  title={Motion-aware Contrastive Learning for Temporal Panoptic Scene Graph Generation},
+  author={Nguyen, Thong and Wu, Xiaobao and Bin, Yi and Nguyen, Cong-Duy and Ng, See-Kiong and Luu, Anh Tuan},
+  journal={Proceedings of AAAI},
+  year={2025},
+  selected={true},
+  abstract={To equip artificial intelligence with a comprehensive understanding towards a temporal world, video and 4D panoptic scene graph generation abstracts visual data into nodes to represent entities and edges to capture temporal relations. Existing methods encode entity masks tracked across temporal dimensions (mask tubes), then predict their relations with temporal pooling operation, which does not fully utilize the motion indicative of the entities' relation. To overcome this limitation, we introduce a contrastive representation learning framework that focuses on motion pattern for temporal scene graph generation. Firstly, our framework encourages the model to learn close representations for mask tubes of similar subject-relation-object triplets. Secondly, we seek to push apart mask tubes from their temporally shuffled versions. Moreover, we also learn distant representations for mask tubes belonging to the same video but different triplets. Extensive experiments show that our motion-aware contrastive framework significantly improves state-of-the-art methods on both video and 4D datasets.},
+}
+
+@article{nguyen2024multi,
+  abbr={AAAI},
+  title={Multi-Scale Contrastive Learning for Video Temporal Grounding},
+  author={Nguyen, Thong and Bin, Yi and Wu, Xiaobao and Hu, Zhiyuan and Nguyen, Cong-Duy and Ng, See-Kiong and Luu, Anh Tuan},
+  journal={Proceedings of AAAI},
+  year={2025},
+  selected={true},
+  abstract={Temporal grounding, which localizes video moments related to a natural language query, is a core problem of vision-language learning and video understanding. To encode video moments of varying lengths, recent methods employ a multi-level structure known as a feature pyramid. In this structure, lower levels concentrate on short-range video moments, while higher levels address long-range moments. Because higher levels experience downsampling to accommodate increasing moment length, their capacity to capture information is reduced and consequently leads to degraded information in moment representations. To resolve this problem, we propose a contrastive learning framework to capture salient semantics among video moments. Our key methodology is to leverage samples from the feature space emanating from multiple stages of the video encoder itself requiring neither data augmentation nor online memory banks to obtain positive and negative samples. To enable such an extension, we introduce a sampling process to draw multiple video moments corresponding to a common query. Subsequently, by utilizing these moments' representations across video encoder layers, we instantiate a novel form of multi-scale and cross-scale contrastive learning that links local short-range video moments with global long-range video moments. Extensive experiments demonstrate the effectiveness of our framework for not only long-form but also short-form video grounding.},
+}
+
 @article{wu2024fastopic,
   abbr={NeurIPS},
   title={FASTopic: A Fast, Adaptive, Stable, and Transferable Topic Modeling Paradigm},
