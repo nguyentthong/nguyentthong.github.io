@@ -18,4 +18,4 @@ I am a PhD student advised by Professor <a href="https://www.comp.nus.edu.sg/~ng
 <br>
 <span style="font-weight: 700!important">Contact</span>: <span style="font-family: 'Lucida Console', monospace">e0998147 [at] u.nus.edu</span>
 
-<span style="font-weight: 700!important">Photo credit</span>: <span style="font-family: 'Lucida Console', monospace"><a href="https://www.facebook.com/profile.php?id=100007571470178">abbymyth<i class="material-icons" style="font-size:15px;color:#fec44f">wb_sunny</i></a></span>
+<span style="font-weight: 700!important">Photo credit</span>: <span style="font-family: 'Lucida Console', monospace"><a href="https://www.instagram.com/abbymyth/">abbymyth<i class="material-icons" style="font-size:15px;color:#fec44f">wb_sunny</i></a></span>
