@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2025-01-06 08:00:00-0400
+date: 2025-04-09 08:00:00-0400
 inline: true
 ---
 
-Starting a new position as a Research Intern at Reka AI.
+Invited to serve as Area Chair for NeurIPS 2025.
