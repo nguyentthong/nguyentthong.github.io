@@ -12,4 +12,5 @@ group :jekyll_plugins do
     gem 'unicode_utils'
     gem 'webrick'
     gem 'faraday-retry'
+    gem "sass-embedded", "~> 1.71.1"
 end
