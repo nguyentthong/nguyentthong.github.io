@@ -64,7 +64,7 @@ keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
-cv: true
+cv: false
 
 contact_note: 
 google_analytics: UA-217568923-1 # out your google-analytics code
