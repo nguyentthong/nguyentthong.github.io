@@ -353,6 +353,11 @@ blockquote {
   white-space: nowrap;
 }
 
+.news .table-responsive {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
 // Social (bottom)
 
 .social {
