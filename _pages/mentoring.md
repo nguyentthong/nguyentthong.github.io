@@ -26,6 +26,9 @@ AI Research Resident at VinUni-CAIR, Vietnam
 [2026-Present] Mr. Luu Minh Thang from NTU, Singapore  
 Undergraduate Student at NTU, Singapore
 
+[2026-Present] Mr. Le Duc Dong from NTU, Singapore  
+PhD Student at NTU, Singapore  
+
 [2025-Present] Mr. Vu Duc Anh from NTU, Singapore  
 PhD Student at NTU, Singapore  
 *Papers: [CDS (SAC'25)](https://dl.acm.org/doi/abs/10.1145/3672608.3707810), [BiasPrompting (SAC'26)](https://arxiv.org/abs/2511.20086)*
