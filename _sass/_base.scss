@@ -51,32 +51,185 @@ blockquote {
 // Profile
 
 .profile {
-  margin-left: 1rem;
   width: 100%;
+  margin-bottom: 1.5rem;
+  text-align: center;
 
-  .address {
-    margin-bottom: 5px;
-    margin-top: 5px;
-    font-family: monospace;
-    p {
-      display: inline-block;
-      margin: 0;
+  img {
+    width: 175px;
+    height: 175px;
+    max-width: 100%;
+    border-radius: 50% !important;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .profile-photo-credit {
+    margin: 0.35rem 0 0 0;
+    font-size: 0.7rem;
+    font-style: italic;
+    line-height: 1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    opacity: 0.55;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      &:hover {
+        opacity: 1;
+        text-decoration: none;
+      }
+    }
+
+    i.fa-sun {
+      font-size: 0.7rem;
+      vertical-align: -0.05em;
+      margin-left: 0.1em;
+    }
+  }
+
+  .profile-name {
+    margin: 0.9rem 0 0.25rem 0;
+    font-weight: 700;
+    font-size: 1.25rem;
+  }
+
+  .profile-tagline {
+    margin: 0 0 1rem 0;
+    font-size: 0.875rem;
+    opacity: 0.85;
+    line-height: 1.4;
+  }
+
+  .address,
+  .author-links {
+    margin: 0;
+    text-align: left;
+    font-family: inherit;
+  }
+
+  ul.author-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      margin-bottom: 0.5rem;
+      font-size: 0.9rem;
+      color: var(--global-text-color);
+
+      i {
+        width: 16px;
+        margin-right: 8px;
+        text-align: center;
+      }
+
+      a {
+        color: var(--global-text-color);
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+          color: var(--global-text-color);
+        }
+      }
+    }
+  }
+
+  .photo-credit-line {
+    margin: 0.75rem 0 0 0;
+    font-size: 0.75rem;
+    line-height: 1.3;
+    text-align: left;
+
+    a {
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 }
 
-@media (min-width: 576px) {
-  .profile {
-    width: 30%;
-    .address {
-      p { display: block; }
-    }
+// Two-column sticky-sidebar layout for the about page
+.profile-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .profile-layout {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2.5rem;
   }
+  .profile-layout > .profile {
+    flex: 0 0 220px;
+    max-width: 220px;
+    position: sticky;
+    top: 80px;
+    margin-bottom: 0;
+  }
+  .profile-layout > .profile.profile-right {
+    order: 2;
+  }
+  .profile-layout > .profile.profile-left {
+    order: 0;
+  }
+  .profile-layout > .profile-main {
+    order: 1;
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+}
+
+// Page title (h1) and section headings — balanced sizes, dxlong2000 style
+.profile-main .post-title,
+.profile-main h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-top: 0.25rem;
+  margin-bottom: 0.6rem;
+  padding-bottom: 0.4em;
+  border-bottom: 1px solid #f2f3f3;
+}
+
+.profile-main h2,
+.profile-main .news > h2,
+.profile-main .publications > h2:first-of-type {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.25;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.4em;
+  border-bottom: 1px solid #f2f3f3;
+}
+
+.profile-main h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-top: 1.25em;
+  margin-bottom: 0.4em;
+}
+
+.profile-main .publications h2.year {
+  border-bottom: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 1.25em;
+  margin-bottom: 0.5em;
+  padding-bottom: 0;
 }
 
 .post-description {
-  margin-bottom: 2rem;
+  margin-bottom: 1.25rem;
   font-size: 0.875rem;
+  opacity: 0.85;
   a {
     color: inherit;
     &:hover {
@@ -197,6 +350,7 @@ blockquote {
 
 .news table th {
   color: var(--global-text-color);
+  white-space: nowrap;
 }
 
 // Social (bottom)
@@ -227,6 +381,7 @@ blockquote {
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
   font-size: 0.75rem;
+  text-align: center;
   .container {
     color: var(--global-footer-text-color);
     padding-top: 9px;
@@ -246,6 +401,7 @@ footer.sticky-bottom {
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 0.9rem;
+  text-align: center;
 }
 
 
@@ -367,6 +523,17 @@ footer.sticky-bottom {
 
 .publications {
   margin-top: 2rem;
+
+  .full-list-link {
+    margin-top: -0.25rem;
+    margin-bottom: 1.25rem;
+    font-size: 0.9rem;
+    opacity: 0.85;
+
+    a {
+      text-decoration: underline;
+    }
+  }
   h1 {
     color: var(--global-theme-color);
     font-size: 2rem;
@@ -416,8 +583,14 @@ footer.sticky-bottom {
         }
       }
       .title {
-        font-weight: 1000;
-        color: #52adc8
+        font-weight: normal;
+        color: #52adc8;
+        a {
+          color: #52adc8;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
       }
       .author {
         a {
