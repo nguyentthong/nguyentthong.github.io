@@ -35,6 +35,11 @@
 
   {% include footer.html %}
 
+  <!-- Clustrmaps visit tracker (hidden from viewers; image request still counts the visit) -->
+  <div aria-hidden="true" style="position:absolute; left:-9999px; top:-9999px; width:1px; height:1px; overflow:hidden; opacity:0; pointer-events:none;">
+    <img src="//www.clustrmaps.com/map_v2.png?d=I2YfwR8Kz4H9LoplfnONasdBtv6HkxEK5XkN7DoYPP8" alt="" />
+  </div>
+
 </body>
 
 {% include scripts/bootstrap.html %}
