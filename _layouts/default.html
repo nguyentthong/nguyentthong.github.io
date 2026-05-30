@@ -35,13 +35,12 @@
 
   {% include footer.html %}
 
-  <!-- Clustrmaps visit tracker (disabled; service crashed, GoatCounter is the active tracker).
-       Uncomment to re-enable if Clustrmaps comes back and your map ID is still valid. -->
-  <!--
+  <!-- MapMyVisitors visit tracker (ClustrMaps successor). Hidden from viewers; the image
+       request still counts the visit. Image-based, so it survives tracker-blockers that
+       block script analytics. Dashboard: https://mapmyvisitors.com/web/1c4wg -->
   <div aria-hidden="true" style="position:absolute; left:-9999px; top:-9999px; width:1px; height:1px; overflow:hidden; opacity:0; pointer-events:none;">
-    <img src="//www.clustrmaps.com/map_v2.png?d=I2YfwR8Kz4H9LoplfnONasdBtv6HkxEK5XkN7DoYPP8" alt="" />
+    <img src="https://mapmyvisitors.com/map.png?d=Tl1L9XZjZXMGYQPAWw53ksKAn1znT77NBVYrKjD_zhE&cl=ffffff" alt="" />
   </div>
-  -->
 
 </body>
 
