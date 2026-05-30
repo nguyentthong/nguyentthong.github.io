@@ -69,7 +69,6 @@ cv: false
 contact_note: 
 google_analytics: UA-217568923-1 # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
-goatcounter_code: thongnguyen050999 # GoatCounter site code, i.e. the YOURCODE in https://YOURCODE.goatcounter.com
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -182,7 +181,6 @@ scholar:
 
 enable_google_analytics:    false  # enables google analytics (UA property is dead since July 2023)
 enable_panelbear_analytics: false  # enables panelbear analytics
-enable_goatcounter_analytics: true  # enables GoatCounter visit tracking
 enable_mansory:             true   # enables automatic project cards arangement
 enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
