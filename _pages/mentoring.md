@@ -11,22 +11,25 @@ nav_order: 2
 [2026-Present] Mr. Junrong Liao from UESTC, Sichuan, China  
 Master Student at UESTC, China
 
-[2026-Present] Mr. Haiyue Zhang from Tongji University, China  
+[2026-Present] Ms. Haiyue Zhang from Tongji University, China  
 PhD Student at Tongji University, China
 
-[2026-Present] Mr. Vo Thi Nhu Quynh from HCMUT, Ho Chi Minh, Vietnam  
+[2026-Present] Ms. [Vo Thi Nhu Quynh](https://scholar.google.com/citations?user=P1SJBNkAAAAJ&hl=en) from HCMUT, Ho Chi Minh, Vietnam  
 AI Research Resident at VinUni-CAIR, Vietnam
 
-[2026-Present] Mr. Do Phu Vinh Hien from HCMUT, Ho Chi Minh, Vietnam  
+[2026-Present] Mr. [Nguyen Huu Nam Phong](https://scholar.google.com/citations?user=ozypkRUAAAAJ&hl=en) from HCMUT, Ho Chi Minh, Vietnam  
+AI Research Resident at VinUni-CAIR, Vietnam
+
+[2026-Present] Ms. Do Phu Vinh Hien from HCMUT, Ho Chi Minh, Vietnam  
 AI Research Resident at VinUni-CAIR, Vietnam
 
 [2026-Present] Mr. Ngo Duy Hieu from HUST, Ha Noi, Vietnam  
 AI Research Resident at VinUni-CAIR, Vietnam
 
-[2026-Present] Mr. Luu Minh Thang from NTU, Singapore  
+[2026-Present] Mr. [Luu Minh Thang](https://www.linkedin.com/in/devinthang/) from NTU, Singapore  
 Undergraduate Student at NTU, Singapore
 
-[2026-Present] Mr. Le Duc Dong from NTU, Singapore  
+[2026-Present] Mr. [Le Duc Dong](https://scholar.google.com/citations?user=nC_ERxMAAAAJ) from NTU, Singapore  
 PhD Student at NTU, Singapore
 
 [2025-Present] Mr. [Vu Duc Anh](https://vuducanh0802.github.io/) from NTU, Singapore  
