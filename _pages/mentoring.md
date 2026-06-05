@@ -8,9 +8,6 @@ nav_order: 2
 
 ## Current People
 
-[2026-Present] Mr. Junrong Liao from UESTC, Sichuan, China  
-Master Student at UESTC, China
-
 [2026-Present] Ms. Haiyue Zhang from Tongji University, China  
 PhD Student at Tongji University, China
 
@@ -39,3 +36,8 @@ PhD Student at NTU, Singapore
 [2024-Present] Mr. [Le Minh Khoi](https://tokisakikurumi2001.github.io/) from NUS, Singapore  
 AI Research Resident at Qualcomm AI Research, Vietnam → PhD Student at NUS, Singapore  
 *Papers: [MAMA (ECCV'24)](https://arxiv.org/abs/2407.03788), [READ (AAAI'24)](https://arxiv.org/abs/2312.06950)*
+
+## Alumni
+
+[2026-Present] Mr. Junrong Liao from UESTC, Sichuan, China  
+Master Student at UESTC, China → Algorithm Engineer at Kuaishou, China
