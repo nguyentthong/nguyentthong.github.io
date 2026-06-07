@@ -36,11 +36,20 @@
   {% include footer.html %}
 
   <!-- MapMyVisitors visit tracker (ClustrMaps successor). Hidden from viewers; the image
-       request still counts the visit. Image-based, so it survives tracker-blockers that
-       block script analytics. Dashboard: https://mapmyvisitors.com/web/1c4wg -->
-  <div aria-hidden="true" style="position:absolute; left:-9999px; top:-9999px; width:1px; height:1px; overflow:hidden; opacity:0; pointer-events:none;">
-    <img src="https://mapmyvisitors.com/map.png?d=Tl1L9XZjZXMGYQPAWw53ksKAn1znT77NBVYrKjD_zhE&cl=ffffff" alt="" />
-  </div>
+       request still counts the visit. Dashboard: https://mapmyvisitors.com/web/1c4wg
+       The tracking image is injected only on the live domain, so local previews
+       (localhost / 127.0.0.1 / file://) are never counted. -->
+  <div id="mmv-tracker" aria-hidden="true" style="position:absolute; left:-9999px; top:-9999px; width:1px; height:1px; overflow:hidden; opacity:0; pointer-events:none;"></div>
+  <script>
+    (function () {
+      var h = window.location.hostname;
+      if (!h || h === "localhost" || h === "127.0.0.1" || h === "0.0.0.0") return;
+      var img = new Image();
+      img.alt = "";
+      img.src = "https://mapmyvisitors.com/map.png?d=Tl1L9XZjZXMGYQPAWw53ksKAn1znT77NBVYrKjD_zhE&cl=ffffff";
+      document.getElementById("mmv-tracker").appendChild(img);
+    })();
+  </script>
 
 </body>
 

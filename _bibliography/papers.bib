@@ -33,6 +33,42 @@
   abstract={Web agents can autonomously complete online tasks by interacting with websites, but their exposure to open web environments makes them vulnerable to prompt injection attacks embedded in HTML content or visual interfaces. Existing guard models still suffer from limited generalization to unseen domains and attack patterns, high false positive rates on benign content, reduced deployment efficiency due to added latency at each step, and vulnerability to adversarial attacks that evolve over time or directly target the guard itself. To address these limitations, we propose WARD (Web Agent Robust Defense against Prompt Injection), a practical guard model for secure and efficient web agents. WARD is built on WARD-Base, a large-scale dataset with around 177K samples collected from 719 high-traffic URLs and platforms, and WARD-PIG, a dedicated dataset designed for prompt injection attacks targeting the guard model. We further introduce A3T, an adaptive adversarial attack training framework that iteratively strengthens WARD through a memory-based attacker and guard co-evolution process. Extensive experiments show that WARD achieves nearly perfect recall on out-of-distribution benchmarks, maintains low false positive rates to preserve agent utility, remains robust against guard-targeted and adaptive attacks under substantial distribution shifts, and runs efficiently in parallel with the agent without introducing additional latency.}
 }
 
+@article{le2026don,
+  abbr={arXiv},
+  title={Don't Read Everything: A Curvature-Conditioned Query for Linear Attention},
+  author={Le, Dong and Nguyen, Thong and Nguyen, Cong-Duy and Tuan, Luu Anh},
+  journal={arXiv},
+  year={2026},
+  arxiv={2606.01294}
+}
+
+@article{nguyen2026windquant,
+  abbr={arXiv},
+  title={WINDQuant: Weight-Informed Neural Decision-Making for Global Mixed-Precision LLM Quantization},
+  author={Nguyen, Phong Nam Huu and Le, Khoi M. and Nguyen, Cong-Duy and Tuan, Luu Anh and Nguyen, Thong and Quan, Tho},
+  journal={arXiv},
+  year={2026},
+  arxiv={2605.26660}
+}
+
+@article{le2026distribution,
+  abbr={arXiv},
+  title={When In-Distribution Gains Fail: Evaluating Weak-to-Strong Reward Models under Preference Shift},
+  author={Le, Khoi and Cao, Tri and Nguyen, Phong and Nguyen, Cong-Duy and Tuan, Luu Anh and Miao, Chunyan and Ng, See-Kiong and Nguyen, Thong},
+  journal={arXiv},
+  year={2026},
+  arxiv={2605.25629}
+}
+
+@article{vu2026more,
+  abbr={SAC},
+  title={More Bias, Less Bias: BiasPrompting for Enhanced Multiple-Choice Question Answering},
+  author={Vu, Duc Anh and Nguyen, Thong and Nguyen, Cong-Duy and Nguyen, Viet Anh and Tuan, Luu Anh},
+  journal={Proceedings of the 41st ACM/SIGAPP Symposium on Applied Computing (SAC 2026)},
+  year={2026},
+  arxiv={2511.20086}
+}
+
 @article{nguyen2024motion,
   abbr={AAAI},
   title={Motion-aware Contrastive Learning for Temporal Panoptic Scene Graph Generation},
@@ -55,6 +91,24 @@
   arxiv={2412.07157},
   code={https://github.com/nguyentthong/MSCL},
   abstract={Temporal grounding, which localizes video moments related to a natural language query, is a core problem of vision-language learning and video understanding. To encode video moments of varying lengths, recent methods employ a multi-level structure known as a feature pyramid. In this structure, lower levels concentrate on short-range video moments, while higher levels address long-range moments. Because higher levels experience downsampling to accommodate increasing moment length, their capacity to capture information is reduced and consequently leads to degraded information in moment representations. To resolve this problem, we propose a contrastive learning framework to capture salient semantics among video moments. Our key methodology is to leverage samples from the feature space emanating from multiple stages of the video encoder itself requiring neither data augmentation nor online memory banks to obtain positive and negative samples. To enable such an extension, we introduce a sampling process to draw multiple video moments corresponding to a common query. Subsequently, by utilizing these moments' representations across video encoder layers, we instantiate a novel form of multi-scale and cross-scale contrastive learning that links local short-range video moments with global long-range video moments. Extensive experiments demonstrate the effectiveness of our framework for not only long-form but also short-form video grounding.},
+}
+
+@article{nguyen2025enhancing,
+  abbr={NAACL},
+  title={Enhancing Multimodal Entity Linking with Jaccard Distance-based Conditional Contrastive Learning and Contextual Visual Augmentation},
+  author={Nguyen, Cong-Duy and Wu, Xiaobao and Nguyen, Thong and Zhao, Shuai and Le, Khoi M. and Nguyen, Viet Anh and Feng, Yichao and Tuan, Luu Anh},
+  journal={Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics (NAACL 2025)},
+  pages={6695--6708},
+  year={2025}
+}
+
+@article{vu2025curriculum,
+  abbr={SAC},
+  title={Curriculum Demonstration Selection for In-Context Learning},
+  author={Vu, Duc Anh and Nguyen, Cong-Duy and Wu, Xiaobao and Hoang, Nhat and Du, Mingzhe and Nguyen, Thong and Tuan, Luu Anh},
+  journal={Proceedings of the 40th ACM/SIGAPP Symposium on Applied Computing (SAC 2025)},
+  pages={1004--1006},
+  year={2025}
 }
 
 @article{wu2024fastopic,
@@ -137,6 +191,24 @@
 }
 
 
+@article{nguyen2024multiobjective,
+  abbr={ICLR},
+  title={Topic Modeling as Multi-Objective Contrastive Optimization},
+  author={Nguyen, Thong and Wu, Xiaobao and Dong, Xinshuai and Nguyen, Cong-Duy and Ng, See-Kiong and Tuan, Luu Anh},
+  journal={Proceedings of International Conference on Learning Representations (ICLR 2024)},
+  year={2024},
+  html={https://openreview.net/forum?id=HdAoLSBYXj}
+}
+
+@article{wu2024modeling,
+  abbr={ACL},
+  title={Modeling Dynamic Topics in Chain-Free Fashion by Evolution-Tracking Contrastive Learning and Unassociated Word Exclusion},
+  author={Wu, Xiaobao and Dong, Xinshuai and Pan, Liangming and Nguyen, Thong and Tuan, Luu Anh},
+  journal={Proceedings of Findings of 62nd Annual Meeting of the Association for Computational Linguistics (ACL 2024 Findings)},
+  pages={3088--3105},
+  year={2024}
+}
+
 @article{nguyen2023read,
   abbr={AAAI},
   title={READ: Recurrent Adapter with Partial Video-Language Alignment for Parameter-Efficient Transfer Learning in Low-Resource Video-Language Modeling},
@@ -150,6 +222,15 @@
   website={https://nguyentthong.github.io/READ},
 }
 
+
+@article{nguyen2023expand,
+  abbr={ACM MM},
+  title={Expand BERT Representation with Visual Information via Grounded Language Learning with Multimodal Partial Alignment},
+  author={Nguyen, Cong-Duy and Vu-Le, The-Anh and Nguyen, Thong and Quan, Tho and Tuan, Luu Anh},
+  journal={Proceedings of the 31st ACM International Conference on Multimedia (ACMMM 2023)},
+  pages={5665--5673},
+  year={2023}
+}
 
 @article{nguyen2023improving,
   abbr={EMNLP},
