@@ -30,7 +30,7 @@ Specifically, my research program centers on **grounding multimodal models in ti
 
 2. **Learning from partial temporal supervision.** Treating noisy, incomplete video–text alignment as a core modeling challenge so that models avoid spurious correlations and adapt efficiently under realistic data. [[MAMA (ECCV'24)](/publications/#nguyen2024meta)] [[READ (AAAI'24)](/publications/#nguyen2023read)]
 
-3. **Visual foresight.** Anticipating future visual states via retrieval-grounded prediction and physics-aware motion-guided animation, rather than free-form generative hallucination. [[Eulerian Motion Guidance (arXiv'26)](/publications/#nguyen2026eulerian)]
+3. **Visual foresight.** Anticipating future visual states via retrieval-grounded prediction and physics-aware motion-guided animation, rather than free-form generative hallucination. [[Eulerian Motion Guidance (ACM MM'26)](/publications/#nguyen2026eulerian)]
 
 My broader vision is to build the temporal infrastructure that makes autonomous multimodal agents trustworthy in dynamic environments — turning temporal grounding from a niche task into a core architectural requirement for reliable multimodal intelligence.
 

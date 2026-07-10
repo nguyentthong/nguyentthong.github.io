@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /mentoring/
-title: Mentoring
+title: Mentoring & Teaching
 nav: true
 nav_order: 2
 ---
@@ -53,3 +53,15 @@ Master Student at UESTC, China → Algorithm Engineer at Kuaishou, China
 [2024-2025] Mr. [Vo Hoang Nhat Khang](https://nhatkhangcs.github.io/) from HCMUT, Ho Chi Minh City, Vietnam
 Undergraduate Student at HCMUT, Vietnam → PhD Student at MBZUAI, UAE
 *Papers: [TI-JEPA (SOICT 2024)](https://arxiv.org/abs/2503.06380)*
+
+---
+
+## Teaching
+
+**National University of Singapore** *(Jan 2023 – May 2023)*
+
+- CS5228 Knowledge Discovery and Data Mining (AY22-23 Sem 2)
+
+**Ho Chi Minh City University of Technology** *(Aug 2019 – Dec 2019)*
+
+- CO1005 Introduction to Computing (AY19-20 Sem 1)

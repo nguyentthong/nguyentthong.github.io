@@ -1,9 +1,19 @@
 ---
 layout: page
 permalink: /services/
-title: Services & Teaching
+title: Talks & Service
 nav: true
 nav_order: 3
+---
+
+## Invited Talks
+
+**Grounding Multimodal Models in Time: From Temporal Evidence to Visual Foresight**
+<br>
+RAIVN Lab, University of Washington, Seattle, USA — June 22, 2026
+<br>
+Hosted by Professor <a href="https://ranjaykrishna.com/">Ranjay Krishna</a>
+
 ---
 
 ## Service
@@ -12,22 +22,10 @@ nav_order: 3
 
 - NeurIPS 2025, 2026
 - NAACL 2025
-- EMNLP 2024
+- EMNLP 2024, 2026
 
 **Reviewer**
 
 - AAAI 2023, 2024
 - ICLR 2024
 - NeurIPS 2023
-
----
-
-## Teaching
-
-**National University of Singapore** *(Jan 2023 – May 2023)*
-
-- CS5228 Knowledge Discovery and Data Mining (AY22-23 Sem 2)
-
-**Ho Chi Minh City University of Technology** *(Aug 2019 – Dec 2019)*
-
-- CO1005 Introduction to Computing (AY19-20 Sem 1)
