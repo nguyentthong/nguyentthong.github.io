@@ -14,10 +14,11 @@ I am very fortunate to work with/mentor the following students:
 PhD Student at Tongji University, China
 
 [2026-Present] Ms. [Vo Thi Nhu Quynh](https://scholar.google.com/citations?user=P1SJBNkAAAAJ&hl=en) from HCMUT, Ho Chi Minh, Vietnam  
-AI Research Resident at VinUni-CAIR, Vietnam
+AI Research Resident at VinUni-CAIR, Vietnam  
+*Papers: [TIGER (2026)](https://arxiv.org/abs/2607.11131), [DOP (2026)](https://arxiv.org/abs/2607.11173)*
 
 [2026-Present] Mr. [Nguyen Huu Nam Phong](https://scholar.google.com/citations?user=ozypkRUAAAAJ&hl=en) from HCMUT, Ho Chi Minh, Vietnam  
-AI Research Resident at VinUni-CAIR, Vietnam
+AI Research Resident at VinUni-CAIR, Vietnam  
 *Papers: [WINDQuant (2026)](https://arxiv.org/abs/2605.26660)*
 
 [2026-Present] Ms. Do Phu Vinh Hien from HCMUT, Ho Chi Minh, Vietnam  
@@ -43,7 +44,7 @@ PhD Student at NTU, Singapore
 
 [2024-Present] Mr. [Le Minh Khoi](https://tokisakikurumi2001.github.io/) from NUS, Singapore  
 AI Research Resident at Qualcomm AI Research, Vietnam → PhD Student at NUS, Singapore  
-*Papers: [MAMA (ECCV 2024)](https://arxiv.org/abs/2407.03788), [READ (AAAI 2024)](https://arxiv.org/abs/2312.06950)*
+*Papers: [MAMA (ECCV 2024)](https://arxiv.org/abs/2407.03788), [READ (AAAI 2024)](https://arxiv.org/abs/2312.06950), [Eulerian Motion Guidance (ACM MM 2026)](https://arxiv.org/abs/2605.06280), [Weak-to-Strong Reward Models (2026)](https://arxiv.org/abs/2605.25629)*
 
 ## Alumni
 

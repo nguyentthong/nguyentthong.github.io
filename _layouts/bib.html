@@ -2,7 +2,14 @@
 ---
 
 <div class="row">
-  <div id="{{entry.key}}" class="col-12">
+  {% if page.selected_papers %}
+  <div class="col-sm-2 abbr">
+    {% if entry.abbr %}
+      <abbr class="badge">{{ entry.abbr }}{% if entry.year %}&rsquo;{{ entry.year | slice: 2, 2 }}{% endif %}</abbr>
+    {% endif %}
+  </div>
+  {% endif %}
+  <div id="{{entry.key}}" class="{% if page.selected_papers %}col-sm-10{% else %}col-12{% endif %}">
     {% if entry.type == "thesis" %}
       {{reference}}
     {% else %}
@@ -66,9 +73,9 @@
       {% unless entry.journal == "arXiv" %}
       <div class="periodical">
       {% if entry.type == "article" %}
-        <em>In {{entry.journal}}</em>
+        {% if page.selected_papers %}<em>In {{ entry.journal | split: ' (' | first }}</em>{% else %}<em>In {{entry.journal}}</em>{% endif %}
       {% elsif entry.type == "inproceedings" %}
-        <em>In {{entry.booktitle}}</em>
+        {% if page.selected_papers %}<em>In {{ entry.booktitle | split: ' (' | first }}</em>{% else %}<em>In {{entry.booktitle}}</em>{% endif %}
       {% endif %}
       </div>
       {% endunless %}
