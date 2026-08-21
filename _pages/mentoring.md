@@ -32,7 +32,7 @@ Undergraduate Student at NTU, Singapore
 
 [2026-Present] Mr. [Le Duc Dong](https://scholar.google.com/citations?user=nC_ERxMAAAAJ) from NTU, Singapore  
 PhD Student at NTU, Singapore
-*Papers: [Don't Read Everything (2026)](https://arxiv.org/abs/2606.01294)*
+*Papers: [Don't Read Everything (EMNLP 2026)](https://arxiv.org/abs/2606.01294)*
 
 [2026-Present] Mr. [Cao Thien Tri](https://caothientri2001vn.github.io/) from NUS, Singapore  
 PhD Student at NUS, Singapore
@@ -44,7 +44,7 @@ PhD Student at NTU, Singapore
 
 [2024-Present] Mr. [Le Minh Khoi](https://tokisakikurumi2001.github.io/) from NUS, Singapore  
 AI Research Resident at Qualcomm AI Research, Vietnam → PhD Student at NUS, Singapore  
-*Papers: [MAMA (ECCV 2024)](https://arxiv.org/abs/2407.03788), [READ (AAAI 2024)](https://arxiv.org/abs/2312.06950), [Eulerian Motion Guidance (ACM MM 2026)](https://arxiv.org/abs/2605.06280), [Weak-to-Strong Reward Models (2026)](https://arxiv.org/abs/2605.25629)*
+*Papers: [MAMA (ECCV 2024)](https://arxiv.org/abs/2407.03788), [READ (AAAI 2024)](https://arxiv.org/abs/2312.06950), [Eulerian Motion Guidance (ACM MM 2026)](https://arxiv.org/abs/2605.06280), [Weak-to-Strong Reward Models (EMNLP 2026)](https://arxiv.org/abs/2605.25629)*
 
 ## Alumni
 
