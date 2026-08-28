@@ -42,17 +42,6 @@
   abstract={Recent advancements in image animation have utilized diffusion models to breathe life into static images. However, existing controllable frameworks typically rely on Lagrangian motion guidance, where optical flow is estimated relative to the initial frame. This paper revisits the same optical-flow primitive through a more local supervision design: we use adjacent-frame Eulerian motion fields to guide generation, where the motion signal always describes a short temporal hop. This shift enables parallelized training and provides bounded-error supervision throughout the generation process. To mitigate the drift artifacts common in adjacent frame generation, we introduce a Bidirectional Geometric Consistency mechanism, which computes a forward-backward cycle check to mathematically identify and mask occluded regions, preventing the model from learning incorrect warping objectives. Extensive experiments demonstrate that our approach accelerates training, preserves temporal coherence, and reduces dynamic artifacts compared to reference-based baselines.}
 }
 
-@article{cao2026tracking,
-  abbr={arXiv},
-  title={Tracking the Truth: Object-Centric Spatio-Temporal Monitoring for Video Large Language Models},
-  author={Cao, Tri and Le, Khoi and Nguyen, Thong and Nguyen, Cong-Duy and Vo, Quynh and Luu, Anh Tuan and Miao, Chunyan and Ng, See-Kiong and Yan, Shuicheng and Hooi, Bryan},
-  journal={arXiv},
-  year={2026},
-  arxiv={2605.08974},
-  code={https://github.com/nguyentthong/video_hallucination},
-  abstract={While multimodal large language models (MLLMs) have advanced video understanding, they remain highly prone to hallucinations in dynamic scenes. We argue this stems from a failure in spatio-temporal monitoring, the ability to persistently track object identities, states, and relations over time. Existing benchmarks obscure this deficit by relying on single final-answer evaluations for queries that can often be resolved via local visual cues or statistical priors. To rigorously diagnose this, we introduce STEMO-Bench (Spatio-TEmporal MOnitoring), a benchmark of human-verified object-centric facts that evaluates intermediate reasoning by decomposing queries into sub-questions, distinguishing genuine temporal understanding from coincidental correctness. To address failure modes exposed by STEMO, we propose STEMO-Track, a novel object-centric framework that explicitly constructs and reasons over structured object trajectories via chunk-wise state extraction and temporal aggregation. Extensive experiments demonstrate that our object-centric framework significantly reduces hallucinated answers and improves spatio-temporal reasoning consistency over state-of-the-art MLLMs.}
-}
-
 @article{cao2026ward,
   abbr={arXiv},
   title={WARD: Adversarially Robust Defense of Web Agents Against Prompt Injections},

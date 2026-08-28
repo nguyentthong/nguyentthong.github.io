@@ -26,7 +26,7 @@ I am a researcher working at the intersection of NLP, computer vision, and multi
 
 Specifically, my research program centers on **grounding multimodal models in time** — building systems that base their predictions on concrete visual evidence in dynamic environments, rather than producing fluent but ungrounded answers. It is organized along three directions:
 
-1. **Building and benchmarking temporal grounding systems.** Architectures and benchmarks that force models to recover the temporal evidence supporting their predictions, not just produce plausible final answers. [[DemaFormer (EMNLP'23)](/publications/#nguyen2023demaformer)] [[Motion-aware Contrastive (AAAI'25)](/publications/#nguyen2024motion)] [[Multi-Scale Contrastive (AAAI'25)](/publications/#nguyen2024multi)] [[STEMO (arXiv'26)](/publications/#cao2026tracking)]
+1. **Building and benchmarking temporal grounding systems.** Architectures and benchmarks that force models to recover the temporal evidence supporting their predictions, not just produce plausible final answers. [[DemaFormer (EMNLP'23)](/publications/#nguyen2023demaformer)] [[Motion-aware Contrastive (AAAI'25)](/publications/#nguyen2024motion)] [[Multi-Scale Contrastive (AAAI'25)](/publications/#nguyen2024multi)]
 
 2. **Learning from partial temporal supervision.** Treating noisy, incomplete video–text alignment as a core modeling challenge so that models avoid spurious correlations and adapt efficiently under realistic data. [[MAMA (ECCV'24)](/publications/#nguyen2024meta)] [[READ (AAAI'24)](/publications/#nguyen2023read)]
 
