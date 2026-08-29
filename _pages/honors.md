@@ -9,7 +9,7 @@ nav_order: 4
 ## Graduate Awards
 
 - [2026] [Student Research Award](https://ids.nus.edu.sg/gathering26.html), Institute of Data Science, National University of Singapore
-- [2025] [Research Award](https://ids.nus.edu.sg/gathering25.html), Institute of Data Science, National University of Singapore
+- [2025] [Student Research Award](https://ids.nus.edu.sg/gathering25.html), Institute of Data Science, National University of Singapore
 - [2023] AI Singapore PhD Fellowship, AI Singapore
 - [2022] [Google PhD Fellowship in Natural Language Processing](https://research.google/programs-and-events/phd-fellowship/recipients/?filtertab=2022), Google
 - [2022] President Graduate Fellowship, National University of Singapore
