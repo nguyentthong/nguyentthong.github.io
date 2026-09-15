@@ -34,6 +34,6 @@ Specifically, my research program centers on **grounding multimodal models in ti
 
 My broader vision is to build the temporal infrastructure that makes autonomous multimodal agents trustworthy in dynamic environments — turning temporal grounding from a niche task into a core architectural requirement for reliable multimodal intelligence.
 
-My research is featured by the <a href="https://youtu.be/nOOhZ_8RhbI">Institute of Data Science (IDS), NUS</a>.
+I am grateful to the [Institute of Data Science (IDS), NUS](https://ids.nus.edu.sg/), for sharing [my research](https://www.youtube.com/watch?v=nOOhZ_8RhbI&feature=youtu.be) and [my journey](https://www.youtube.com/watch?v=NZBBwanofqA&feature=youtu.be) toward building trustworthy multimodal AI through temporal grounding and visual evidence.
 
 <em><strong>I am open to opportunities for collaboration and new research ideas. If you are interested in working with me, please feel free to contact via my email.</strong></em>
