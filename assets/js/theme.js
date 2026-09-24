@@ -9,7 +9,9 @@ let toggleTheme = (theme) => {
 }
 
 
-let setTheme = (theme) =>  {
+// Only an explicit toggle is saved, so visitors who never toggle keep following
+// their system setting.
+let setTheme = (theme, persist = true) =>  {
   transTheme();
   if (theme) {
     document.documentElement.setAttribute("data-theme", theme);
@@ -17,7 +19,9 @@ let setTheme = (theme) =>  {
   else {
     document.documentElement.removeAttribute("data-theme");
   }
-  localStorage.setItem("theme", theme);
+  if (persist) {
+    localStorage.setItem("theme", theme);
+  }
   
   // Updates the background of medium-zoom overlay.
   if (typeof medium_zoom !== 'undefined') {
@@ -38,11 +42,12 @@ let transTheme = () => {
 
 
 let initTheme = (theme) => {
-  if (theme == null) {
+  if (theme !== "dark" && theme !== "light") {
+    // No saved choice (or a stale value such as "undefined"): follow the system.
     const userPref = window.matchMedia;
-    if (userPref && userPref('(prefers-color-scheme: dark)').matches) {
-        theme = 'dark';
-    }
+    theme = userPref && userPref('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    setTheme(theme, false);
+    return;
   }
   setTheme(theme);
 }
