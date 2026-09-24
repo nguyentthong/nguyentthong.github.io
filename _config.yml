@@ -98,6 +98,16 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  travels:
+    output: true
+    permalink: /travels/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: travels
+    values:
+      layout: travel
 
 news_limit: 5
 
@@ -123,6 +133,7 @@ kramdown:
 include: ['_pages']
 exclude:
   - bin
+  - images  # raw travel photos with GPS, see bin/travel_photos.py
   - Gemfile
   - Gemfile.lock
   - vendor

@@ -55,10 +55,13 @@
               </div>
           </li>
           {% else %}
-          <li class="nav-item {% if page.title == p.title %}active{% endif %}">
+          {% assign current = false %}
+          {% if page.title == p.title %}{% assign current = true %}{% endif %}
+          {% if page.collection == 'travels' and p.permalink == '/travels/' %}{% assign current = true %}{% endif %}
+          <li class="nav-item {% if current %}active{% endif %}">
               <a class="nav-link" href="{{ p.url | relative_url }}">
                 {{ p.title }}
-                {% if page.title == p.title %}
+                {% if current %}
                 <span class="sr-only">(current)</span>
                 {% endif %}
               </a>

@@ -1,0 +1,20 @@
+---
+layout: page
+permalink: /travels/
+title: Travels
+description: Photographs from the places my research has taken me.
+nav: true
+nav_order: 5
+---
+
+{% assign trips = site.travels | sort: 'date' | reverse %}
+<div class="travel-covers">
+  {% for trip in trips %}
+  {% assign slug = trip.path | split: '/' | last | remove: '.md' %}
+  <a class="travel-cover" href="{{ trip.url | relative_url }}">
+    <img src="{{ '/assets/img/travels/' | append: slug | append: '/cover.webp' | relative_url }}" width="1200" height="800" alt="{{ trip.title | escape }}"{% if forloop.index > 2 %} loading="lazy"{% endif %}>
+    <span class="travel-cover-title">{{ trip.title | escape }}</span>
+    <span class="travel-cover-meta">{{ trip.country }} &middot; {{ trip.when }}</span>
+  </a>
+  {% endfor %}
+</div>
