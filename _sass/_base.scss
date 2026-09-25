@@ -195,7 +195,7 @@ blockquote {
   margin-top: 0.25rem;
   margin-bottom: 0.6rem;
   padding-bottom: 0.4em;
-  border-bottom: 1px solid #f2f3f3;
+  border-bottom: 1px solid var(--global-divider-color);
 }
 
 .profile-main h2,
@@ -207,7 +207,7 @@ blockquote {
   margin-top: 1.5em;
   margin-bottom: 0.5em;
   padding-bottom: 0.4em;
-  border-bottom: 1px solid #f2f3f3;
+  border-bottom: 1px solid var(--global-divider-color);
 }
 
 .profile-main h3 {
