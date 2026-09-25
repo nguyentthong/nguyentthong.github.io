@@ -57,7 +57,6 @@
           {% else %}
           {% assign current = false %}
           {% if page.title == p.title %}{% assign current = true %}{% endif %}
-          {% if page.collection == 'travels' and p.permalink == '/travels/' %}{% assign current = true %}{% endif %}
           <li class="nav-item {% if current %}active{% endif %}">
               <a class="nav-link" href="{{ p.url | relative_url }}">
                 {{ p.title }}

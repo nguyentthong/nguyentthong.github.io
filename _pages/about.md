@@ -37,3 +37,5 @@ My broader vision is to build the temporal infrastructure that makes autonomous 
 I am grateful to the [Institute of Data Science (IDS), NUS](https://ids.nus.edu.sg/), for sharing [my research](https://www.youtube.com/watch?v=nOOhZ_8RhbI&feature=youtu.be) and [my journey](https://www.youtube.com/watch?v=NZBBwanofqA&feature=youtu.be) toward building trustworthy multimodal AI through temporal grounding and visual evidence.
 
 <em><strong>I am open to opportunities for collaboration and new research ideas. If you are interested in working with me, please feel free to contact via my email.</strong></em>
+
+Outside research, I take photos when I travel. [A few of them are here.](https://www.notion.so/3e62b5590d3c8126a0f1df1996cf970f)
