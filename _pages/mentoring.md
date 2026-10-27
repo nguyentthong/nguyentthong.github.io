@@ -31,11 +31,11 @@ AI Research Resident at VinUni-CAIR, Vietnam
 Undergraduate Student at NTU, Singapore
 
 [2026-Present] Mr. [Le Duc Dong](https://scholar.google.com/citations?user=nC_ERxMAAAAJ) from NTU, Singapore  
-PhD Student at NTU, Singapore
+PhD Student at NTU, Singapore  
 *Papers: [Don't Read Everything (EMNLP 2026)](https://arxiv.org/abs/2606.01294)*
 
 [2026-Present] Mr. [Cao Thien Tri](https://caothientri2001vn.github.io/) from NUS, Singapore  
-PhD Student at NUS, Singapore
+PhD Student at NUS, Singapore  
 *Papers: [WARD (2026)](https://arxiv.org/abs/2605.15030), [STEMO (2026)](https://arxiv.org/abs/2605.08974)*
 
 [2025-Present] Mr. [Vu Duc Anh](https://vuducanh0802.github.io/) from NTU, Singapore  
@@ -51,8 +51,8 @@ AI Research Resident at Qualcomm AI Research, Vietnam → PhD Student at NUS, Si
 [2026-Present] Mr. Junrong Liao from UESTC, Sichuan, China  
 Master Student at UESTC, China → Algorithm Engineer at Kuaishou, China
 
-[2024-2025] Mr. [Vo Hoang Nhat Khang](https://nhatkhangcs.github.io/) from HCMUT, Ho Chi Minh City, Vietnam
-Undergraduate Student at HCMUT, Vietnam → PhD Student at MBZUAI, UAE
+[2024-2025] Mr. [Vo Hoang Nhat Khang](https://nhatkhangcs.github.io/) from HCMUT, Ho Chi Minh City, Vietnam  
+Undergraduate Student at HCMUT, Vietnam → PhD Student at MBZUAI, UAE  
 *Papers: [TI-JEPA (SOICT 2024)](https://arxiv.org/abs/2503.06380)*
 
 ---
