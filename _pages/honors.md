@@ -8,6 +8,7 @@ nav_order: 4
 
 ## Graduate Awards
 
+- [2026] [Best Paper Award](/publications/#le2026don), EMNLP 2026
 - [2026] [Student Research Award](https://ids.nus.edu.sg/gathering26.html), Institute of Data Science, National University of Singapore
 - [2025] [Student Research Award](https://ids.nus.edu.sg/gathering25.html), Institute of Data Science, National University of Singapore
 - [2023] AI Singapore PhD Fellowship, AI Singapore

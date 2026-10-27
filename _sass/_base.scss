@@ -582,10 +582,10 @@ footer.sticky-bottom {
             }
           }
         }
-        .award {
-          color: var(--global-theme-color) !important;
-          border: 1px solid var(--global-theme-color);
-        }
+      }
+      .award {
+        color: var(--global-theme-color);
+        font-weight: bold;
       }
       .title {
         font-weight: normal;
