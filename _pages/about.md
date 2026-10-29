@@ -22,19 +22,30 @@ selected_papers: true # renders publications grouped by year (see _includes/sele
 years: [2026, 2025, 2024, 2023, 2022, 2021]
 social: false  # bottom social icons hidden; contact links are in the sticky sidebar
 ---
-I am a researcher working at the intersection of NLP, computer vision, and multimodal learning, with a focus on large multimodal models and video understanding. I received my PhD from the National University of Singapore in September 2025, advised by Professor <a href="https://www.comp.nus.edu.sg/~ngsk/">See-Kiong Ng</a> and Professor <a href="https://tuanluu.github.io/">Anh-Tuan Luu</a>. My research focuses on building and understanding multimodal models for language, vision, and video.
+Hi! I am **Thong Nguyen**, a researcher working on large multimodal models and video understanding.
+I received my PhD from the National University of Singapore in 2025, advised by Professor <a href="https://www.comp.nus.edu.sg/~ngsk/">See-Kiong Ng</a> and Professor <a href="https://tuanluu.github.io/">Anh-Tuan Luu</a>.
 
-Specifically, my research program centers on **grounding multimodal models in time** — building systems that base their predictions on concrete visual evidence in dynamic environments, rather than producing fluent but ungrounded answers. It is organized along three directions:
+My research interests lie in the intersection of **Natural Language Processing**, **Computer Vision**, and **Multimodal Learning**, with a focus on *temporal grounding, video-language learning, and reliable multimodal AI*.
+A common thread is making models answer from visual evidence they can point to, instead of producing plausible but unsupported answers.
 
-1. **Building and benchmarking temporal grounding systems.** Architectures and benchmarks that force models to recover the temporal evidence supporting their predictions, not just produce plausible final answers. [[DemaFormer (EMNLP'23)](/publications/#nguyen2023demaformer)] [[Motion-aware Contrastive (AAAI'25)](/publications/#nguyen2024motion)] [[Multi-Scale Contrastive (AAAI'25)](/publications/#nguyen2024multi)]
+<div class="highlights" markdown="1">
 
-2. **Learning from partial temporal supervision.** Treating noisy, incomplete video–text alignment as a core modeling challenge so that models avoid spurious correlations and adapt efficiently under realistic data. [[MAMA (ECCV'24)](/publications/#nguyen2024meta)] [[READ (AAAI'24)](/publications/#nguyen2023read)]
+- 🏆 **Best Paper Award**, EMNLP 2026
+- 🎓 **Google PhD Fellowship** in Natural Language Processing, 2022
+- 🏅 **Student Research Award**, Institute of Data Science, NUS, 2025 and 2026
+- 🧑‍⚖️ **Area Chair** for NeurIPS, EMNLP, and NAACL
+- 🎤 **Invited talks** at the [University of Washington and TU Darmstadt](/services/)
 
-3. **Visual foresight.** Anticipating future visual states via retrieval-grounded prediction and physics-aware motion-guided animation, rather than free-form generative hallucination. [[Eulerian Motion Guidance (ACM MM'26)](/publications/#nguyen2026eulerian)]
+</div>
 
-My broader vision is to build the temporal infrastructure that makes autonomous multimodal agents trustworthy in dynamic environments — turning temporal grounding from a niche task into a core architectural requirement for reliable multimodal intelligence.
+## Research
 
-I am grateful to the [Institute of Data Science (IDS), NUS](https://ids.nus.edu.sg/), for sharing [my research](https://www.youtube.com/watch?v=nOOhZ_8RhbI&feature=youtu.be) and [my journey](https://www.youtube.com/watch?v=NZBBwanofqA&feature=youtu.be) toward building trustworthy multimodal AI through temporal grounding and visual evidence.
+- **Finding the evidence in time.** Models and benchmarks that locate the video moments supporting an answer. [[DemaFormer (EMNLP'23)](/publications/#nguyen2023demaformer)] [[Motion-aware Contrastive (AAAI'25)](/publications/#nguyen2024motion)] [[Multi-Scale Contrastive (AAAI'25)](/publications/#nguyen2024multi)]
+- **Learning from imperfect video-text data.** Training that stays reliable when captions and videos are noisy or only partly aligned. [[MAMA (ECCV'24)](/publications/#nguyen2024meta)] [[READ (AAAI'24)](/publications/#nguyen2023read)]
+- **Predicting what comes next.** Generating future frames that follow physically plausible motion. [[Eulerian Motion Guidance (ACM MM'26)](/publications/#nguyen2026eulerian)]
+- **Efficient and dependable language models.** Attention that reads only what matters for long inputs, and reward models that hold up under distribution shift. [[Don't Read Everything (EMNLP'26)](/publications/#le2026don)] [[Weak-to-Strong Reward Models (EMNLP'26)](/publications/#le2026distribution)]
+
+I am grateful to the [Institute of Data Science (IDS), NUS](https://ids.nus.edu.sg/), for featuring [my research](https://www.youtube.com/watch?v=nOOhZ_8RhbI&feature=youtu.be) [journey](https://www.youtube.com/watch?v=NZBBwanofqA&feature=youtu.be).
 
 <em><strong>I am open to opportunities for collaboration and new research ideas. If you are interested in working with me, please feel free to contact via my email.</strong></em>
 

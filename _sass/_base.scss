@@ -217,6 +217,24 @@ blockquote {
   margin-bottom: 0.4em;
 }
 
+// Short list of top achievements right under the intro
+.profile-main .highlights {
+  margin: 1.25rem 0;
+  padding: 0.75rem 1rem;
+  border-left: 3px solid var(--global-theme-color);
+  background-color: var(--global-code-bg-color);
+  border-radius: 0 4px 4px 0;
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+  li {
+    margin: 0.2rem 0;
+  }
+}
+
 .profile-main .publications h2.year {
   border-bottom: none;
   font-size: 1.1rem;
@@ -568,8 +586,20 @@ footer.sticky-bottom {
     li {
       margin-bottom: 1rem;
       .abbr {
-        height: 2rem;
         margin-bottom: 0.5rem;
+        // Figure from the paper, shown under the venue badge
+        .preview {
+          display: block;
+          width: 100%;
+          max-width: 260px;
+          aspect-ratio: 16 / 10;
+          object-fit: contain;
+          margin-top: 0.5rem;
+          padding: 4px;
+          background-color: #fff;
+          border: 1px solid var(--global-divider-color);
+          border-radius: 4px;
+        }
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
@@ -583,7 +613,8 @@ footer.sticky-bottom {
           }
         }
       }
-      .award {
+      // Award or oral line under the venue
+      .distinction {
         color: var(--global-theme-color);
         font-weight: bold;
       }
