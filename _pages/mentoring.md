@@ -36,7 +36,7 @@ PhD Student at NTU, Singapore
 
 [2026-Present] Mr. [Cao Thien Tri](https://caothientri2001vn.github.io/) from NUS, Singapore  
 PhD Student at NUS, Singapore  
-*Papers: [WARD (2026)](https://arxiv.org/abs/2605.15030), [STEMO (2026)](https://arxiv.org/abs/2605.08974)*
+*Papers: [WARD (2026)](https://arxiv.org/abs/2605.15030)*
 
 [2025-Present] Mr. [Vu Duc Anh](https://vuducanh0802.github.io/) from NTU, Singapore  
 PhD Student at NTU, Singapore  
