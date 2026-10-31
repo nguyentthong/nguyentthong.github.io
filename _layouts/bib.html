@@ -86,7 +86,7 @@
       {% endunless %}
 
       {% if entry.award %}
-      <div class="distinction"><i class="fas fa-trophy"></i> {{ entry.award }}</div>
+      <div class="distinction"><i class="fas fa-trophy"></i> {% if entry.award_url %}<a href="{{ entry.award_url }}" target="_blank">{{ entry.award }}</a>{% else %}{{ entry.award }}{% endif %}</div>
       {% endif %}
       {% if entry.presentation %}
       <div class="distinction"><i class="fas fa-microphone"></i> {{ entry.presentation }}</div>

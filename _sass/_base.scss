@@ -599,6 +599,12 @@ footer.sticky-bottom {
       .distinction {
         color: var(--global-theme-color);
         font-weight: bold;
+        a {
+          color: inherit;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
       }
       .title {
         font-weight: normal;
