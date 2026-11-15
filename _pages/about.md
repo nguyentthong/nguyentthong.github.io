@@ -31,5 +31,3 @@ My long-term goal is to build AI that understands the world as it unfolds over t
 I am grateful to the [Institute of Data Science (IDS), NUS](https://ids.nus.edu.sg/), for featuring [my research](https://www.youtube.com/watch?v=nOOhZ_8RhbI&feature=youtu.be) [journey](https://www.youtube.com/watch?v=NZBBwanofqA&feature=youtu.be).
 
 <em><strong>I am open to opportunities for collaboration and new research ideas. If you are interested in working with me, please feel free to contact through <a href="mailto:thongnguyen050999@gmail.com">my email</a>.</strong></em>
-
-Outside research, I take photos when I travel. [A few of them are here.](https://www.notion.so/3e62b5590d3c8126a0f1df1996cf970f)
